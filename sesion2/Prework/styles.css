@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+	font-family: "VesterbroExtraBold";
+  src: url("fonts/TRYVesterbro-Extrabold.otf");
+}
+#container{
+  background-color: #fffbf7;
+}
+nav{
+  text-align: center;
+}
+li{
+  display: inline;
+  color:#025157;
+}
+#cabecera{
+  color: #025157;
+	font-size: 68px;
+	font-family: "VesterbroExtraBold";
+}
+#textProm{
+	color: #8b8b8bcc;
+	font-size: 16px;
+}
+
+.botonPersonalizado{
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffff;
+    background-color:#025157;
+    border-radius: 6px;
+    border: 0px 
+  }
+  .botonPersonalizado:hover{
+    color: #025157;
+    background-color: #fff;
+  }
+
+
+
+
