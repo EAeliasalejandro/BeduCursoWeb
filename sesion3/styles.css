@@ -5,8 +5,15 @@ font-face{
 	font-family: "VesterbroExtraBold";
   src: url("fonts/TRYVesterbro-Extrabold.otf");
 }
-.headerContainerPadre{
+
+.fixed-header{
   position: fixed;
+  background-color: #ffff;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.headerContainerPadre{
   top: 0px;
   width: 100%;
   right: 0px;
@@ -15,6 +22,7 @@ font-face{
   margin-top: 40px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 5px;
   height: 45px;
   font-size: 0;
   font-family:sans-serif;
@@ -104,20 +112,10 @@ p{
   font-family: Arial;
   font-size: 20px;
 }
-footer{
+.footer-flex-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-}
-footer>*{
-  display: inline-block;
-  vertical-align: middle;
-}
-.logoPie{
-  height: 50%;
-  text-align: left;
-}
-.derechosReservados{
-  
-  width: 50%;
-  text-align: right;
   
 }
