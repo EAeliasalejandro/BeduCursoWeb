@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--Nos dice la version del html:5-->
+<html lang="en">
+<!--Es el elemento raiz de mi estructura-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Matcha Bedu2</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header class="headerContainerPadre">
+
+		<a class="logo" href="index.html"><img src="images/Logo.PNG" alt="LogoMatcha"></a>
+
+		<nav class="navbar">
+			<ul>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Templates</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Customers</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Resources</a></li>
+			</ul>
+		</nav>
+
+		<div class="actions">
+			<a id=SignIn href="login.html">Sign In</a>
+			<button class="botonPersonalizado2" type="submit">Get started free</button>
+		</div>
+	</header>
+
+
+	<!--Sirve para identificar info importante de nuestra pagina personal, solo uno por proyecto-->
+	<main>
+		<!--Solo usar una vez-->
+		<h1 class="titulo">Let’s face it.<br>Your blog stinks.</h1>
+		<div class="flex-container">
+			<section>
+				<article>
+					<h2>Arte</h2>
+					<img class="imgSection"
+						src="https://www.museocjv.com/manuel%20Felguerezlamaquina_archivos/image015.jpg"
+						alt="ImagenArte">
+					<p>Esta es una obra de Manuel Felguerez de su serie de obras de la maquina<br>estetica.</p>
+
+				</article>
+			</section>
+			<section>
+				<article>
+					<h2>Tecnologia</h2>
+					<img class="imgSection"
+						src="https://www.tedic.org/wp-content/uploads/2016/12/img_jcutrona_20160916-191940_imagenes_lv_otras_fuentes_hires-kaOG-U41364139386MyE-992x558@LaVanguardia-Web.jpg"
+						alt="imagenTecnologia">
+					<p>La tecnologia es cool.</p>
+				</article>
+			</section>
+		</div>
+		<section>
+			<article>
+				<h2>Videos</h2>
+				<video class="video" controls>
+					<source src="videos/LLama.mp4" type="video/mp4">
+					<source src="videos/LLama.ogv" type="video/ogv">
+					<source src="videos/LLama.webm" type="video/webm">
+					<p>Tu navegador no soporta HTML5 video. Aquí está el <a href="videos/LLama.mp4">enlace del
+							video</a>.</p>
+				</video>
+				<p>Este es un ejemplo de un video1.</p>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/X5Wkp1gsNik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+				 picture-in-picture" allowfullscreen></iframe>
+				<p>Este es un ejemplo de un video2.</p>
+			</article>
+		</section>
+	</main>
+	<!--Contextos extras de enlaces para ir a otro sitio u otro nivel del proyecto-->
+	<aside>
+	</aside>
+
+	<footer>
+		<div class="logoPie"><a href="index.html"><img src="images/Logo.PNG" alt="LogoMatcha"></a></div>
+		<div class="derechosReservados">© 2020 Matcha. All Rights Reserved</div>
+	</footer>
+</body>
+
+</html>
