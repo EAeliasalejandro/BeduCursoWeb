@@ -1,0 +1,18 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto; /*numero de columnas con su tamaño*/
+    /*grid-template-rows: 200px 200px;*//*numero y tamaño de las filas*/
+    grid-auto-rows: 200px;/*Con este a todos se les asigna la altura a las filas*/
+    gap: 1em;/*Espaciado entre grid-items*/
+    /*column-gap: 1em;*/ /*Espaciado entre columnas*/
+    background-color: blue;
+}
+.grid-container>*{
+    color: white;
+    background-color: brown;
+    /*align-self: center;/*Alinear de forma vertical*/
+    /*justify-self: center;/*Alinear de forma horizontal*/ 
+}
+.grid-item2{
+    grid-column: 2/4;
+}
