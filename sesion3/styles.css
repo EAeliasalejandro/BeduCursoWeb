@@ -5,7 +5,11 @@ font-face{
 	font-family: "VesterbroExtraBold";
   src: url("fonts/TRYVesterbro-Extrabold.otf");
 }
-
+.subtexto{
+  font-family: Arial;
+  color: #46484c;
+  font-size: 20px;
+}
 .fixed-header{
   position: fixed;
   background-color: #ffff;
@@ -93,6 +97,7 @@ main{
   font-family: VesterbroExtraBold;
   font-size: 68px;
   color: #025157;
+  line-height: 63px;
 }
 .flex-container{
   display: flex;
@@ -116,6 +121,16 @@ p{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  
+  width: 100%; 
+}
+.container-section-promo{
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+.item-article{
+  width: 30%;
+  height: 100px;
+  background-color: aqua;
 }
