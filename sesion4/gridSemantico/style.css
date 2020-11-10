@@ -1,0 +1,41 @@
+
+nav{
+    grid-area: nav;
+    height: 50px;
+}
+header{
+    grid-area: header;
+    height: 100px;
+}
+main{
+    grid-area: main;
+    height: 300px;
+}   
+article{
+    grid-area: article;
+}
+aside{
+    grid-area: aside;
+}   
+footer{
+    grid-area: footer;
+    height: 50px;
+}
+/*Maquetado*/
+body{
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav nav'
+    'header header header header'
+    'main main article aside'
+    'footer footer footer footer';
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+body>*{
+    background-color: brown;
+    color: azure;
+    text-align: center;
+    font-size: 20px;
+}
