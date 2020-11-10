@@ -1,0 +1,60 @@
+/*section{
+    background-color: rgb(235, 178, 232);
+}
+.features{
+    display: grid;
+    /*En vez de declarar todo solo uso repeat y ya con eso me lo crea
+    grid-template-columns: repeat(2,300px); */
+    /*Crea una fracción de 500px
+    grid-template-columns: 500px 1fr;
+    grid-template-columns: repeat(2,50%);
+    row-gap: 3em;
+    column-gap: 1em;
+}
+img{
+ width: 641px;
+ height: 297px;
+ border-radius: 5px;
+}*/
+
+
+
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: menu;
+}
+.item3{
+    grid-area: main;
+}
+.item4{
+    grid-area: rigth;
+}
+.item5{
+    grid-area: footer;
+}
+/*Maquetado*/
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'main main rigth menu'
+    'footer footer footer footer'
+    ;
+    
+    gap: 10px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.grid-container > div{
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 400px;
+}        
+        
+       

@@ -1,0 +1,39 @@
+font-face{
+	font-family: "VesterbroExtraBold";
+  src: url("fonts/TRYVesterbro-Extrabold.otf");
+}
+.encabezado{
+    text-align: center;
+    padding-bottom: 50px;
+}
+h1{
+    font-family: VesterbroExtraBold;
+    font-size: 68px;
+  color: #025157;
+    text-align: center;
+}
+span{
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    color: #4a4a4a;
+}
+p{
+    font-family: Arial;
+    font-size: 24px;
+    color: #080e06;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.item{
+ width: 20%;
+ text-align: center;
+}
+img{
+    width: 100%;
+    height: 200px;
+    border-radius: 9px;
+}
