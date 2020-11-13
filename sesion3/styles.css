@@ -5,6 +5,9 @@ font-face{
 	font-family: "VesterbroExtraBold";
   src: url("fonts/TRYVesterbro-Extrabold.otf");
 }
+h1{
+  font-size: 60px;
+}
 .subtexto{
   font-family: Arial;
   color: #46484c;

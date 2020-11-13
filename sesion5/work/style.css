@@ -4,6 +4,64 @@
     border: 0;
     box-sizing: border-box;
 }
+font-face{
+    font-family: "VesterbroExtraBold";
+  src: url("fonts/TRYVesterbro-Extrabold.otf");
+}
+h1{
+    font-size: 60px;
+  }
+
+
+body{
+    background-color: aqua;
+}
+@media (max-width: 575px){
+    .grid-container{
+        display: grid;
+        grid-template-rows: repeat(4,30%);
+        
+        gap: 1em;
+    }
+    .feature-card{
+        background-color: azure;
+    }
+    .feature-card>.feature-content>figure>img{
+        width: auto;
+        
+    }
+    .feature-image>figure>img{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        height: 80px;
+    }
+    .container>a{
+        width: 100%;
+    }
+    .logo>img{
+        width: 200px;
+    }
+    body{
+        margin-top: 1px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: yellow;
+    }
+    .navbar,
+    .actions {
+        display: none;
+    }
+    h1{
+        font-size: 30px;
+        font-family: "VesterbroExtraBold";
+        color: green;
+    }
+    .banner>img{
+        width: 100%;
+    }
+}
 
 header{
     height: 100px;
@@ -59,4 +117,61 @@ button{
 button:hover{
     color:green;
     background-color:white;
+  }
+
+  .features {
+    background-color: #025157;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+  }
+  .features .feature-card {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #DADADA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .features .feature-card .feature-content {
+    padding: 30px 20px 40px 40px;
+    flex: 2;
+  }
+  .features .feature-card .feature-content > * {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .features .feature-card .feature-content img {
+    width: 50px;
+  }
+  .features .feature-card .feature-content h3 {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 400;
+  }
+  .features .feature-card .feature-content p {
+    font-size: 16px;
+    color: #7E7E7E;
+    font-weight: 400;
+  }
+  .features .feature-card .feature-content a {
+    font-size: 16px;
+    color: #67B54B;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .features .feature-card .feature-image {
+    flex: 1;
+    width: 40%;
+    position: relative;
+    right: -50px;
+    height: 80%;
+  }
+  .features .feature-card .feature-image figure,
+  .features .feature-card .feature-image img {
+    margin-top: 0;
+    height: 100%;
   }
