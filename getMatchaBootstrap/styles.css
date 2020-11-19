@@ -1,0 +1,27 @@
+.navbar{
+    margin: 2%;
+}
+.derecha>a{
+    color: #025157;
+}
+.derecha>button{
+    background-color:#025157;
+    color:#fff;
+}
+.derecha>button:hover{
+    color:#fff;
+   background-color:#67b54b; 
+}
+.container img:hover{
+    transform: scale(1.5);
+}
+.Top{
+    text-align: center;
+}
+.Top h2{
+    color:#025157;
+}
+.Top p{
+    color:#4a4a4a;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
