@@ -1,27 +1,102 @@
+
+/*Font VesterBro*/
+@font-face {
+    font-family: vesterbroextrabold;
+    src: url(font/TRYVesterbro-Extrabold.otf);
+}
+@media (min-width:375px) { 
+    .marcas{
+        text-align: center;
+        gap: 2em;
+        width: 100%;
+    }
+    button{
+        /*width: 100%;*/
+    }
+}
+/*navabar*/
 .navbar{
     margin: 2%;
 }
 .derecha>a{
     color: #025157;
 }
-.derecha>button{
+button{
     background-color:#025157;
     color:#fff;
 }
-.derecha>button:hover{
+button:hover{
     color:#fff;
    background-color:#67b54b; 
 }
-.container img:hover{
+/*encabezado*/
+.frasePrincipal{
+    font-family: vesterbroextrabold;
+    color:#025157;
+}
+.encabezado-parrafo{
+    font-size: 20px;
+}
+.encabezado-accion{
+    margin-top: 40px;
+}
+.encabezado-accion>button{
+    color:#fff;
+    background-color:#67b54b; 
+}
+.encabezado-2>video{
+    width: 100%;
+}
+
+.text-muted>span{
+    
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
+/*Top*/
+.carta>img:hover{
     transform: scale(1.5);
 }
 .Top{
     text-align: center;
+    margin-top: 300px;
 }
-.Top h2{
+h2{
     color:#025157;
+    font-family: vesterbroextrabold;
 }
 .Top p{
     color:#4a4a4a;
     font-family: 'IBM Plex Sans',Arial,sans-serif;
 }
+.texto-principal{
+    font-size: 18px;
+}
+/*tools*/
+.tools-title{
+    margin-top: 250px;
+}
+.Tools{
+    text-align: center;
+}
+.Tool-div>div{
+    /*text-align: center;*/
+    /*border: 1px solid #dadada;*/
+    
+}
+.card-deck{
+    margin-top: 40px;
+}
+.tools-img{
+    margin-top: 20px;
+    height: 50px;
+    width: 31px;
+}
+/*growing*/
+.Growing{
+    margin-top: 300px;
+}
+.growing-2{
+    color:#4a4a4a;
+    font-family: 'IBM Plex Sans',Arial,sans-serif;
+}
+/*how*/
