@@ -1,0 +1,44 @@
+@import 'global';
+
+
+.title {
+    @extend %base-title;
+}
+.process-list { //Aquí hay una anidación
+    margin-top: 40px;
+    margin-bottom: 36px;
+
+    .process { //Aquí hay una anidación
+      margin-bottom: 25px;
+      display: flex;
+      & > div { //Aquí hay una anidación
+        & > h3 {
+          color: $dark-green-title;
+          margin-bottom: 0;
+          font-size: 30px;
+          font-weight: 500;
+        }
+        & > p {
+          color: $dark-green-text;
+          margin: 0;
+        }
+      }
+
+      .process-icon {//Aquí hay una anidación
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+        text-align: center;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+}
+  button {
+    @include botonStyle;
+  }
+  button:hover{
+    background-color:$ligth-green-button-hover;
+ }

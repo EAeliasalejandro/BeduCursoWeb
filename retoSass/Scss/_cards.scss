@@ -1,0 +1,27 @@
+@import 'global';
+@mixin font {
+    font-family: $font-subtitulos;
+}
+.card-img1{
+    width: 400px;
+    border-radius: 10px;
+}
+.card h2{
+    font-family: $font-subtitulos;
+    color: $dark-green-title;
+}
+.card {
+    @include font;
+}
+.card p{
+    @include font;
+}
+.card-info1{
+    color: $ligth-green-button-hover;
+}
+.card-info2{
+    color: $gray;
+}
+.card-user{
+    @include font;
+}

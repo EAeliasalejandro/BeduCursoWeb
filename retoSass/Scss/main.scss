@@ -1,0 +1,15 @@
+@import 'global';
+@import 'process';
+@import 'cards';
+.blog {
+  background-color: $white;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.row{
+  display: flex;
+}
+.col{
+  width: 33%;
+  margin: 1em;
+}

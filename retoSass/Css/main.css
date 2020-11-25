@@ -1,0 +1,120 @@
+/** colores */
+/** fuentes */
+/*Variable para la font a utilizar en algun titulo*/
+/** placeholders */
+.title {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+}
+
+/** colores */
+/** fuentes */
+/*Variable para la font a utilizar en algun titulo*/
+/** placeholders */
+.title {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+}
+
+.process-list {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.process-list .process {
+  margin-bottom: 25px;
+  display: flex;
+}
+.process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.process-list .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.process-list .process .process-icon img {
+  height: 100%;
+}
+
+button {
+  text-decoration: none;
+  font-style: normal;
+  padding: 15px 20px 15px 20px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #025157;
+  border-radius: 8px;
+  border: 0px;
+  width: 200px;
+}
+
+button:hover {
+  background-color: #67b54b;
+}
+
+/** colores */
+/** fuentes */
+/*Variable para la font a utilizar en algun titulo*/
+/** placeholders */
+.title {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+}
+
+.card-img1 {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.card h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #025157;
+}
+
+.card {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.card p {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.card-info1 {
+  color: #67b54b;
+}
+
+.card-info2 {
+  color: #919191;
+}
+
+.card-user {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.blog {
+  background-color: #ffffff;
+  max-width: unset;
+  padding: 5% 10%;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 33%;
+  margin: 1em;
+}
+
+/*# sourceMappingURL=main.css.map */

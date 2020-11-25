@@ -1,0 +1,36 @@
+/** colores */
+
+$dark-green-title: #025157; //Variable de color verde, se especifica que es para un titulo
+$dark-green-text: #135359;//Variable de color verde, se especifica que es para el texto
+$ligth-green-button-hover:#67b54b;
+$gray:rgb(145, 145, 145);
+//Variable para el color rojo pero existe una irregularidad ya que el nombre de la variable 
+//es white(blanco), por lo que cambiare de #c02e2e a #ffffff
+$white: #ffffff; 
+
+/** fuentes */
+$font-title: "Alegreya", serif;/*Variable para la font a utilizar en algun titulo*/
+$font-subtitulos: 'IBM Plex Sans', sans-serif;
+/** placeholders */  
+//Aqui no existia esta herencia y se estaba usando en el main de sass, la creamos y
+//vemos que habla acerca de un placeholder que no esta estipulado y que no estamos usando
+//ya que se usan en los formularios y aqui no hay txt entonces agregare el color de titulo
+//y la font del titulo
+%base-title{
+    color: $dark-green-title;
+    font-family: $font-title;
+    font-size: 40px;
+} 
+
+//mixin de boton
+@mixin botonStyle {
+    text-decoration: none;
+    font-style: normal;
+    padding: 15px 20px 15px 20px;
+    font-weight: 600;
+    color:$white;
+    background-color:$dark-green-title;
+    border-radius: 8px;
+    border: 0px;
+    width: 200px;
+}
